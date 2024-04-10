@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up Page : Muzistic Online Music Application</title>
+    <link rel="shortcut icon" href="./photos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <div class="big" onclick="return validate()">
+        <ul class="head" >
+            <a href="login.html"><li class="login">Login</li></a>
+            <li class="sign_up">Sign Up</li>
+        </ul>
+        <input class="t e" id="user" type="text" onkeyup="clickuser(this)" placeholder="Enter you name" >
+        <input class="t m" id="gmail" type="text" onkeyup="clickgmail(this)" placeholder="Enter your G-mail" >
+        <input class="t m" id="pass" type="password" onkeyup="clickpass(this)"  placeholder="Password" >
+        <input class="t m" id="cpass" type="password" onkeyup="clickcpass(this)" placeholder="Confirm Password" >
+        <p class="fp" id="tg" onclick="toggle()">Show Password</p>
+        <div class="alert" id="al"></div>
+        <a href="index.html"><button  id="submit" >Sign Up</button></a>
+        <p class="tp">Terms and Condition | Privacy Policy</p>
+
+    </div>
+
+</body>
+<!-- <script src="signup.js"></script> -->
+</html>

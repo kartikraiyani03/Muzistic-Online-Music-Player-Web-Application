@@ -1,0 +1,870 @@
+@media(max-width : 1500px)
+{
+    .big1 .box2 .song h4 .arrow1 
+    {
+        position: static;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin-left: 860px;
+        fill: rgb(172, 3, 3);
+    }
+
+    .big1 .box2 .song h4 .arrow2 
+    {
+        cursor: pointer;
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+        fill: rgb(172, 3, 3);
+    }
+}
+@media(max-width : 1500px)
+{
+    .big1 .box2 .artist .pa .arrow3 
+    {
+        position: static;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin-left: 860px;
+        fill: rgb(172, 3, 3);
+    }
+
+    .big1 .box2 .artist .pa .arrow4
+    {
+        cursor: pointer;
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+        fill: rgb(172, 3, 3);
+    }
+}
+@media(max-width : 1400px)
+{
+    .big1 .box2 .song h4 .arrow1 
+    {
+        position: static;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin-left: 830px;
+        fill: rgb(172, 3, 3);
+    }
+
+    .big1 .box2 .song h4 .arrow2 
+    {
+        cursor: pointer;
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+        fill: rgb(172, 3, 3);
+    }
+}
+@media(max-width : 1400px)
+{
+    .big1 .box2 .artist .pa .arrow3 
+    {
+        position: static;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin-left: 830px;
+        fill: rgb(172, 3, 3);
+    }
+
+    .big1 .box2 .artist .pa .arrow4
+    {
+        cursor: pointer;
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+        fill: rgb(172, 3, 3);
+    }
+}
+@media(max-width : 1450px)
+{
+    .big1 .box2 .song h4 .arrow1 
+    {
+        position: static;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin-left: 800px;
+        fill: rgb(172, 3, 3);
+    }
+
+    .big1 .box2 .song h4 .arrow2 
+    {
+        cursor: pointer;
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+        fill: rgb(172, 3, 3);
+    }
+}
+@media(max-width : 1300px)
+{
+    * 
+    {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .big1 
+    {
+        display: flex;
+    }
+
+    .big1 .box1 
+    {
+        height: 90vh;
+        width: 25vw;
+        background-color: rgb(13, 13, 13);
+
+    }
+
+    .big1 .box1 h1 
+    {
+        color: rgb(172, 3, 3);
+        margin: 15px 0px 15px 0px;
+    }
+
+    .big1 .box1 .a 
+    {
+        color: rgb(158, 157, 157);
+        list-style: none;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 0px 0px 10px 30px;
+    }
+
+    .big1 .box1 .a:hover 
+    {
+        color: white;
+    }
+
+    .big1 .box1 .musiclist 
+    {
+        height: 485px;
+        width: 25vw;
+        margin-top: 40px;
+    }
+
+    .big1 .box1 .musiclist .list 
+    {
+        display: flex;
+        align-items: center;
+        color: grey;
+        font-weight: bold;
+        margin-top: 12px;
+        margin-left: 22px;
+        margin-bottom: 17px;
+    }
+
+    .big1 .box1 .musiclist .list:hover 
+    {
+        background-color: rgb(39, 39, 39);
+    }
+
+    .big1 .box1 .musiclist .list img 
+    {
+        height: 32px;
+        width: 32px;
+        margin-left: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .big1 .box1 .musiclist .list h4 
+    {
+        color: white;
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .big1 .box1 .musiclist .list h4 p 
+    {
+        font-size: 10px;
+        color: grey;
+    }
+
+    .big1 .box1 .musiclist .list .play 
+    {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        color: rgb(172, 3, 3);
+        margin-left: 25px;
+        cursor: pointer;
+    }
+    .big1 .box2 nav 
+    {
+        height: 10%;
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .big1 .box2 nav ul 
+    {
+        display: flex;
+        width: 380px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    
+    .big1 .box2 nav ul li 
+    {
+        height: 30px;
+        align-items: center;
+        list-style: none;
+        color: grey;
+        font-weight: bold;
+        font-size: 15px;
+        width: 80px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        padding-left: 15px;
+    }
+
+    .big1 .box2 nav ul li:hover 
+    {
+        color: white;
+        border-bottom: 3px solid red;
+    }
+
+    .big1 .box2 nav ul li:nth-child(1) 
+    {
+        list-style: none;
+        color: rgb(255, 255, 255);
+    }
+    .big1 .box2 nav ul li:nth-child(2) 
+    {
+        padding-right: 20px;
+    }
+
+    .big1 .box2 .search 
+    {
+        margin-left: 10px;
+        border: 1px solid white;
+        border-radius: 30px;
+        height: 30px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(16, 16, 16);
+    }
+
+    .big1 .box2 .search input 
+    {
+        margin-left: 10px;
+        height: 20px;
+        width: 220px;
+        background: none;
+        outline: none;
+        color: white;
+        border: none;
+        font-size: 14px;
+    }
+
+    .big1 .box2 .search .glass 
+    {
+        height: 17px;
+        width: 17px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    .big1 .box1 .logo 
+    {
+        display: flex;
+    }
+
+    .big1 .box2 .info 
+    {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .big1 .box2 .info .n 
+    {
+        color: white;
+        position: relative;
+        margin-top: 5px;
+        padding-left: 10px;
+        width: 100px;
+    }
+
+    .big1 .box2 .info .photo 
+    {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+
+    .big1 .box1 .logo .logo02 
+    {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin: 17px;
+    }
+
+
+
+
+    .big1 .box2 .content 
+    {
+        margin: 0px 0px 0px 15px;
+    }
+
+    .big1 .box2 .content h1 
+    {
+        color: white;
+        font-size: 18px;
+    }
+
+    .big1 .box2 .content h4 
+    {
+        color: rgb(90, 89, 89);
+        font-size: 14px;
+    }
+    
+    .big1 .box2 .content h4 span 
+    {
+        color: rgb(172, 3, 3);
+        font-size: 14px;
+    }
+
+    .big1 .box2 .content .play 
+    {
+        background-color: rgb(172, 3, 3);
+        height: 30px;
+        width: 120px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: none;
+        border-radius: 20px;
+        margin: 15px 7px 0px 0px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .big1 .box2 .content .play:hover 
+    {
+        cursor: pointer;
+        height: 30px;
+        width: 120px;
+        color: rgb(172, 3, 3);
+        font-size: 16px;
+        background-color: black;
+        border: 3px solid rgb(172, 3, 3);
+        font-weight: bold;
+        border-radius: 20px;
+    }
+
+    .big1 .box2 .content .follow 
+    {
+        cursor: pointer;
+        height: 30px;
+        width: 120px;
+        color: rgb(172, 3, 3);
+        font-size: 16px;
+        background-color: black;
+        border: 3px solid rgb(172, 3, 3);
+        font-weight: bold;
+        border-radius: 20px;
+    }
+
+    .big1 .box2 .content .follow:hover 
+    {
+        background-color: rgb(172, 3, 3);
+        color: white;
+    }
+
+    .m 
+    {
+        position: absolute;
+        z-index: -1;
+        height: 260px;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+
+    .big1 .box2 .song 
+    {
+        width: 99%;
+        height: 200px;
+        background: none;
+        position: static;
+    }
+
+    .big1 .box2 .song h4 .arrow1 
+    {
+        position: static;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin-left: 748px;
+        fill: rgb(172, 3, 3);
+    }
+
+    .big1 .box2 .song h4 .arrow2 
+    {
+        cursor: pointer;
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+        fill: rgb(172, 3, 3);
+    }
+
+    .big1 .box2 .song .box 
+    {
+        height: 160px;
+        display: flex;
+        background: none;
+        overflow-x: auto;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .big1 .box2 .song .box ::-webkit-scrollbar 
+    {
+        display: none;
+    }
+
+    .big1 .box2 .song .p 
+    {
+        color: white;
+        margin-left: 19px;
+        margin-top: 20px;
+    }
+
+    .big1 .box2 .song .box .text 
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .big1 .box2 .song .box
+    {
+        margin-top: 10px;
+        background-color: none;
+    }
+
+    .big1 .box2 .song .box .b1 
+    {
+        height: 120px;
+        width: 90px;
+        margin-left: px18;
+        background: none;
+        position: relative;
+    }
+
+    .big1 .box2 .song .box .b1 img 
+    {
+        height: 90px;
+        width: 90px;
+        position: relative;
+        z-index: -1;
+    }
+
+    .big1 .box2 .song .box .b1 .pp 
+    {
+        position: absolute;
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        z-index: 2;
+        margin: 37px;
+        opacity: 0;
+        margin-bottom: 10px;
+    }
+
+    .big1 .box2 .song .box .b1:hover .pp
+    {
+        opacity: 1;
+    }
+
+    .big1 .box2 .song .box .b1 h4
+    {
+        margin-top: 0px;
+        font-size: 10px;
+    }
+
+    .big1 .box2 .song .box .b1 p 
+    {
+        color: grey;
+        margin-top: 0px;
+        font-size: 8px;
+    }
+
+    .big1 .box2 .song .box .b1 
+    {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .big1 .box2 .song .box .text 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
+    }
+
+
+
+
+    .big1 .box2 .artist 
+    {
+        color: white;
+        margin: 10px 0px 10px 10px;
+    }
+
+    .big1 .box2 .artist .pa
+    {
+        font-size: 16px;
+    }
+
+    .big1 .box2 .artist .pa .arrow3 
+    {
+        margin-left: 748px;
+        position: static;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        fill: rgb(172, 3, 3);
+    }
+
+    .big1 .box2 .artist .pa .arrow4 
+    {
+        position: static;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+        fill: rgb(172, 3, 3);
+
+    }
+    .big1 .box2 .all::-webkit-scrollbar 
+    {
+        display: none;
+    }
+
+    .big1 .box2 .all 
+    {
+        display: flex;
+        margin-top: 10px;
+        position: relative;
+        z-index: -1;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+    .big1 .box2 .artist .all .photos 
+    {
+        display: flex;
+    }
+
+    .big1 .box2 .artist .all .photos img 
+    {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .big1 .box2 .artist .all .photos 
+    {
+        height: 70px;
+        width: 70px;
+        position: relative;
+        z-index: -1;
+        display: inline;
+        margin-right: 16px;
+    }
+
+
+
+
+
+
+    footer .wave 
+    {
+        height: 30px;
+        width: 30px;
+        margin-left: 20px;
+        display: flex;
+        align-items: flex-end;
+        z-index: 3;
+    }
+
+    footer .wave .wave1 
+    {
+        height: 20px;
+        width: 4px;
+        background-color: rgb(172, 3, 3);
+        margin-right: 4px;
+        border-radius: 4px;
+        animation: unset;
+    }
+
+    footer .wave .wave2 
+    {
+        height: 15px;
+        width: 4px;
+        background-color: rgb(172, 3, 3);
+        margin-right: 4px;
+        border-radius: 4px;
+        animation: unset;
+    }
+
+    footer .wave .wave3 
+    {
+        height: 24px;
+        width: 4px;
+        background-color: rgb(172, 3, 3);
+        margin-right: 4px;
+        border-radius: 4px;
+        animation: unset;
+    }
+
+    footer .wave .wave4 
+    {
+        height: 18px;
+        width: 4px;
+        background-color: rgb(172, 3, 3);
+        border-radius: 4px;
+        animation: unset;
+    }
+
+    footer .active .wave1 {
+        animation: wavet 600ms linear infinite;
+    }
+
+    footer .active .wave2 {
+        animation: wavet 600ms linear infinite;
+        animation-delay: .4s;
+    }
+
+    footer .active .wave3 {
+        animation: wavet 600ms linear infinite;
+        animation-delay: .8s;
+    }
+
+    footer .active .wave4 {
+        animation: wavet 600ms linear infinite;
+        transition-delay: .12s;
+    }
+
+    @keyframes wavet {
+        0% {
+            height: 12px;
+        }
+
+        50% {
+            height: 25px;
+        }
+
+        100% {
+            height: 30px;
+        }
+    }
+
+    footer .current 
+    {
+        display: flex;
+        width: 150px;
+    }
+
+    footer .current img 
+    {
+        height: 38px;
+        width: 38px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    footer .current h4 {
+        color: white;
+    }
+
+    footer .current h4 p {
+        color: grey;
+        font-size: 10px;
+    }
+
+    footer .skip 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 180px;
+        margin-right: 10px;
+    }
+
+    footer .skip .prev 
+    {
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+
+    }
+
+    footer .skip .next 
+    {
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+    }
+
+    footer .skip #p01 
+    {
+        border: none;
+        background: none;
+    }
+
+    footer .skip .mplay 
+    {
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+    }
+
+    footer .skip .pause1 
+    {
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+    }
+
+    footer .start 
+    {
+        color: white;
+        width: 30px;
+        margin: 0px 5px 0px 5px;
+    }
+    footer #start 
+    {
+        color: white;
+        width: 30px;
+    }
+
+    footer span 
+    {
+        color: white;
+        margin-left: 5px;
+    }
+
+    footer .bar 
+    {
+        position: relative;
+        height: 5px;
+        width: 500px;
+        background-color: rgb(54, 54, 54);
+        border-radius: 100px;
+        margin-left: 5px;
+    }
+
+    footer .bar #seek 
+    {
+        position: absolute;
+        width: 503px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    
+    footer .bar .bar2 
+    {
+        position: absolute;
+        width: 1px;
+        height: 7px;
+        background-color: rgb(172, 3, 3);
+        border-radius: 50px;
+        transition: 2s linear;
+        cursor: pointer;
+    }
+
+    footer .bar .dot 
+    {
+        position: absolute;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background-color: rgb(172, 3, 3);
+        top: -2px;
+        cursor: pointer;
+        left: -1px;
+        transition: 2s linear;
+    }
+
+    footer .vol 
+    {
+        display: flex;
+        margin-top: 4px;
+    }
+
+    footer .volbar 
+    {
+        position: relative;
+        height: 5px;
+        width: 100px;
+        background-color: rgb(54, 54, 54);
+        border-radius: 100px;
+        margin: 9px 0px 0px 5px;
+        /* cursor: pointer; */
+    }
+
+    footer .volbar .volbar2 
+    {
+        position: absolute;
+        width: 100px;
+        height: 5px;
+        background-color: rgb(172, 3, 3);
+        border-radius: 50px;
+        /* transition: 2ms linear; */
+    }
+
+    footer .vol #seekvol 
+    {
+        position: absolute;
+        top: -6px;
+        width: 120px;
+        height:30px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    footer .vol #seekvol::-webkit-scrollbar-button 
+    {
+        color: rgb(172, 3, 3);
+    }
+
+    footer .volume 
+    {
+        margin-left:30px;
+    }
+
+    footer .volbar .voldot 
+    {
+        position: absolute;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background-color: rgb(172, 3, 3);
+        top: -3px;
+        left: 95px;
+        cursor: pointer;
+    }
+
+    footer
+    {
+        height: 7vh;
+    }
